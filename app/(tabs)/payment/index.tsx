@@ -1,13 +1,12 @@
 import { StyleSheet } from 'react-native';
 
+import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
-const Home = () => {
+const payment = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Seja bem-vindo ao EasyGas!</Text>
-            
-            <Text style={styles.desc}>Selecione uma das telas abaixo para navegar no mapa ou para pagar utilizando seu Cartão NFC</Text>
+            <Text style={styles.title}>Selecione seu cartão</Text>
         </View>
     );
 }
@@ -19,14 +18,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     title: {
-        fontSize: 24,
+        fontSize: 20,
         fontWeight: 'bold',
-    },
-    desc: {
-        fontSize: 18,
-        marginTop: 50,
-        marginHorizontal: 40,
-        textAlign: 'center',
     },
     separator: {
         marginVertical: 30,
@@ -35,4 +28,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Home
+export default payment
