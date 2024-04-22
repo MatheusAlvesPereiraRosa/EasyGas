@@ -14,11 +14,12 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.0",
-    "@react-native-mapbox-gl/maps": "^8.6.0-beta.0",
     "@react-navigation/native": "^6.0.2",
     "expo": "~50.0.14",
+    "expo-dev-client": "~3.3.11",
     "expo-font": "~11.10.3",
     "expo-linking": "~6.2.2",
+    "expo-location": "~16.5.5",
     "expo-router": "~3.4.8",
     "expo-splash-screen": "~0.26.4",
     "expo-status-bar": "~1.11.1",
